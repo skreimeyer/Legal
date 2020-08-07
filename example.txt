@@ -1,0 +1,15 @@
+[INSERT PREAMBLE/CAPTION]:
+
+THENCE (1) South 2°02'36" West, 99.85 feet to the beginning of a curve concave northwesterly, said curve has a radius of 20.00 feet;
+
+THENCE (2) southwesterly along said curve through a central angle of 90°26'30" an arc distance of 31.57 feet to a point of non-tangency;
+
+THENCE (3) North 2°29'06" East, 5.00 feet to the beginning of a non-tangent curve concave northwesterly, said curve has a radius of 15.00 feet, to which a radial line bears South 2°29'06" West;
+
+THENCE (4) northeasterly along said curve through a central angle of 90°26'30" an arc distance of 23.68 feet to a point of tangency;
+
+THENCE (5) North 2°02'36" East, 99.88 feet to a point of non-tangency;
+
+THENCE (6) South 87°30'54" East, 5.00 feet;
+
+Containing 637.44 square feet, more or less [VALUE IS GRID AREA].
