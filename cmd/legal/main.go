@@ -7,6 +7,8 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/skreimeyer/legal/pkg/legal"
 )
 
 func main() {
@@ -39,7 +41,7 @@ func main() {
 		return
 	}
 	report := string(data)
-	var metes []Mete
+	var metes []legal.Mete
 	if *cdir != "" {
 		var commBearing Bearing
 		err = commBearing.Parse(*cdir)
