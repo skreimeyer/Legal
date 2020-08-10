@@ -43,14 +43,16 @@ func main() {
 	report := string(data)
 	var metes []legal.Mete
 	if *cdir != "" {
-		var commBearing Bearing
-		err = commBearing.Parse(*cdir)
+		var commBearing legal.Bearing
+		err = commBearing.FromString(*cdir)
 		if err != nil {
 			fmt.Println("Invalid commencement bearing")
 			return
 		}
+		angle := commBearing.ToAngle()
 		commDist := *cdist
-		metes = append(metes, Mete{Bearing: commBearing, Distance: commDist, Unit: "FEET"}) // FIXME: allow other units
+		comm := legal.NewLinearMete(angle, commDist, "FEET")
+		metes = append(metes, &comm) // FIXME: allow other units
 	}
 	var area float64
 	var units string

@@ -92,6 +92,7 @@ func (d Direction) Describe() string {
 }
 
 // Bearing is a direction of a survey. This follows the convention of representing bearings as degrees-minutes-seconds
+// TODO: Make Bearing a plain float64 in radians and marshall/unmarshall into DMS at boundaries.
 type Bearing struct {
 	primary   Direction
 	deg       int
